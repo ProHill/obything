@@ -310,7 +310,7 @@ private getHostAddress() {
 }
 
 private sendCommand(command) {
-  def path = "/post.html"
+  def path = "/post.php"
 
   def headers = [:]
   headers.put("HOST", getHostAddress())
